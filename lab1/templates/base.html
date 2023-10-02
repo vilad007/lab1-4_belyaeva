@@ -1,0 +1,12 @@
+<header>
+    <ul>
+        <li>
+            <a href="{% url 'home' %}">home</a>
+        </li>
+        <li>
+            <a href="{% url 'about' %}">about</a>
+        </li>
+    </ul>
+    {% block content %}
+    {% endblock %}
+</header>
